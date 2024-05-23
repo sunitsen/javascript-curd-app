@@ -1,0 +1,95 @@
+.pagination button .active{
+    background: black;
+    border-radius: 10px;
+}
+.error{
+    color: red;
+}
+#curdForm input.success{
+ border:1px solid green;
+}
+#curdForm input.error{
+ border:1px solid red;
+}
+
+
+.danger{
+    color: red;
+    font-size: 14px;
+    text-transform: capitalize !important;
+}
+.success{
+  color: rgb(3, 78, 22);
+  font-size: 14px;
+  text-transform: capitalize !important;
+}
+.entry-text{
+  text-align: center;
+  color:white;
+}
+.value-text{
+  text-align: center;
+  color:white;
+}
+.custom-padding{
+  padding-block: .5rem;
+}
+.button-container{
+  text-align: center;
+}
+.button-container button {
+  margin: 10px;
+}
+.custom-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+  }
+  #test{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border:1px solid white;
+    margin: auto
+  }
+  .box{
+    font-size: 14px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    
+  }
+  .custom-box input{
+    width: 70%;
+  }
+
+  tbody tr td{
+    border:1px solid white;
+  }
+  .edit-button {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: white;
+    background: #1f2937;
+    padding: .2rem .5rem;
+    border-radius: .2rem;
+    border:1px solid  white;
+  }
+  .delete-button {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: white;
+    background: #c88601;
+    padding: .2rem .5rem;
+    border-radius: .2rem;
+    border:1px solid  white;
+  }
+
+  #pagination-controls button{
+    padding:5px;
+    border:1px solid white;
+    margin: 5px;
+  }
